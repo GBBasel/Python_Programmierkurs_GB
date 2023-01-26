@@ -1,0 +1,11 @@
+title: Python_Programmierkurs_GB
+language: English
+summary: PyCharm for Education Kurs, angelehnt an Computertechnik und Programmierung, Überarbeitung durch Yasmin
+  Brüderlin und Adrian Kaiser (Gymnasium Bäumlihof)
+programming_language: Python
+content:
+- Python_Grundlagen
+- Pygame
+- Spielwiese
+mode: Study
+solutions_hidden: true
