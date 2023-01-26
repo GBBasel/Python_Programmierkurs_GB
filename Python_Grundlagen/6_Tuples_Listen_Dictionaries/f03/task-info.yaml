@@ -1,0 +1,16 @@
+type: choice
+is_multiple_choice: false
+options:
+- text: Listen sind zur Laufzeit aenderbar, Tuples nicht.
+  is_correct: true
+- text: Listen benoetigen weniger Rechenleistung bei der Bearbeitung.
+  is_correct: false
+- text: Listen koennen saemtliche Datentypen beinhalten. Tuples nur Integer und Strings
+  is_correct: false
+files:
+- name: question.py
+  visible: true
+  learner_created: false
+status: Unchecked
+record: -1
+custom_name: Frage 3

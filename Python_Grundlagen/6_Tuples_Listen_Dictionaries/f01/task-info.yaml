@@ -1,0 +1,23 @@
+type: choice
+is_multiple_choice: false
+options:
+- text: violett
+  is_correct: false
+- text: blau
+  is_correct: false
+- text: tuerkis
+  is_correct: false
+- text: gruen
+  is_correct: true
+- text: gelb
+  is_correct: false
+files:
+- name: question.py
+  visible: true
+  text: |-
+    colors = ['violett', 'blau', 'tuerkis', 'gruen', 'gelb']
+    print(colors[3])
+  learner_created: false
+status: Unchecked
+record: -1
+custom_name: Frage 1

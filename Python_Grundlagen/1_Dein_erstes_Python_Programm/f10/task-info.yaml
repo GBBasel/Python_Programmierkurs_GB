@@ -1,0 +1,14 @@
+type: choice
+is_multiple_choice: false
+options:
+- text: Das ist richtig.
+  is_correct: false
+- text: Das ist falsch.
+  is_correct: true
+files:
+- name: question.py
+  visible: true
+  learner_created: false
+status: Unchecked
+record: -1
+custom_name: Frage 10

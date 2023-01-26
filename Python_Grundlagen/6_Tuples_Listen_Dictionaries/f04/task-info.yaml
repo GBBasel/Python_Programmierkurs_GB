@@ -1,0 +1,16 @@
+type: choice
+is_multiple_choice: true
+options:
+- text: Alle Werte in einem Dictionary muessen vom gleich Typ sein.
+  is_correct: false
+- text: Ein Dictionary kann jegliche Objekte enthalten.
+  is_correct: true
+- text: Dictionaries sind zur Laufzeit veraenderbar.
+  is_correct: true
+files:
+- name: question.py
+  visible: true
+  learner_created: false
+status: Unchecked
+record: -1
+custom_name: Frage 4
