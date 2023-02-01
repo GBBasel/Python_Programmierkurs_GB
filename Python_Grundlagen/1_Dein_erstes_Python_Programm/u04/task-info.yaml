@@ -6,7 +6,7 @@ files:
   placeholders:
   - offset: 350
     length: 18
-    placeholder_text: ändern Sie diesen Wert
+    placeholder_text: aendern Sie diesen Wert
     initial_state:
       length: 18
       offset: 350
@@ -18,13 +18,13 @@ files:
     a = 3  # Zuweisung der Variablen x mit dem Wert 3
     b = 'gugus'  # Zuweisung der Variable y mit der Zeichenkette 'gugus'
 
-    print('a = ' + str(a))  # der Ausdruck str(a) wird später im Kurs erläutert. Der aktuelle Gebrauch konvertiert
+    print('a = ' + str(a))  # der Ausdruck str(a) wird spaeter im Kurs erlaeutert. Der aktuelle Gebrauch konvertiert
     print('b = ' + b)       # die Variable a in einen String
 
     hello = 'Hallo Welt'
     print('hallo = ' + str(hello))
 
-    hello = ändern Sie diesen Wert
+    hello = aendern Sie diesen Wert
     print('hallo = ' + str(hello))
   learner_created: false
 - name: tests.py
@@ -35,7 +35,7 @@ files:
 
     def test_task_window():
         window = get_answer_placeholders()[0]
-        if 'ändern Sie diesen Wert' == window:
+        if 'aendern Sie diesen Wert' == window:
             failed('Sie sollten die Variablen \'hello\' neu definieren.')
         else:
             passed()

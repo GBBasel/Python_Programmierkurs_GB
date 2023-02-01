@@ -3,7 +3,7 @@ from test_helper import run_common_tests, failed, passed, import_task_file, get_
 
 def test_task_window():
     window = get_answer_placeholders()[0]
-    if 'ändern Sie diesen Wert' == window:
+    if 'aendern Sie diesen Wert' == window:
         failed('Sie sollten die Variablen \'hello\' neu definieren.')
     else:
         passed()
